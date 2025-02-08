@@ -8,7 +8,7 @@ interface blogType {
  
 }
 
-export const blog = [
+export const blog:blogType[] = [
     {
         writerName : 'Saber Ali',
         image:'/blog-1.png',

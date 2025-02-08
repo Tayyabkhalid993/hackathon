@@ -1,14 +1,7 @@
 import React from 'react'
 import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa'
-import { Josefin_Sans } from 'next/font/google';
 
 
-const josefin = Josefin_Sans({
-  weight: ['400', '700'],
-  style: ['normal', 'italic'],
-  subsets: ['latin'],
-  display: 'swap',
-});
 
 
 const Icons = () => {

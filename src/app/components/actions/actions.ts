@@ -63,7 +63,7 @@ export const updateCartCount = () => {
 
 //Update From Cart
 export const updateCartQuantity = (ProductId: string, quantity: number) => {
-  let cart: Product[] = JSON.parse(localStorage.getItem("cart") || "[]");
+  const cart: Product[] = JSON.parse(localStorage.getItem("cart") || "[]");
   const productIndex = cart.findIndex((item) => item.id === ProductId);
 
   if (productIndex > -1) {

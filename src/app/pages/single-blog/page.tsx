@@ -6,7 +6,6 @@ import React from 'react'
 import { FaCommentDots, FaEnvelope, FaPenNib, FaUser } from 'react-icons/fa';
 import { MdOutlineCalendarMonth } from 'react-icons/md';
 import { singleBlog } from '../single-blog';
-import { Icon } from 'lucide-react';
 import Icons from '../blog/icons';
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from 'react-icons/io';
 import Sidebar from '../blog/sidebar';

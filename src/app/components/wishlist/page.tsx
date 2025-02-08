@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { Lato, Josefin_Sans } from "next/font/google"; // Import Josefin font
+import { Josefin_Sans } from "next/font/google"; // Import Josefin font
 import { useEffect, useState } from "react";
 import { Card } from "@/components/ui/card";
 import {
@@ -10,12 +10,6 @@ import {
 } from "@/app/components/actions/actions";
 import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 
-const lato = Lato({
-  weight: ["400", "700"],
-  style: ["normal", "italic"],
-  subsets: ["latin"],
-  display: "swap",
-});
 
 const josefin = Josefin_Sans({
   weight: ["400", "700"],

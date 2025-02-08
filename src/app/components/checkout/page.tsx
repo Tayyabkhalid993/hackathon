@@ -23,6 +23,7 @@ const josefin = Josefin_Sans({
 const CheckoutPage = () => {
   const [cartItems, setCartItems] = useState<Product[]>([]);
   const [discount, setDiscount] = useState<number>(0);
+  console.log(discount);
   const [formValues, setFormValues] = useState({
     name: "",
     lastName: "",
